@@ -29,5 +29,22 @@
     <p>$ git log (gives you a log of your commit history. Each commit history has a hash number)</p>
     <p>$ git show hashNumber (shows you what is inside the particular commit)</p>
     <p>$ git diff (gives you the difference between the current updated file and the previous commit)</p>
+
+    <p>$ git branch (gives you the current branch you are working on)</p>
+    <p>$ git branch -r (gives you the list of branches you have remotely (in github))</p>
+    <p>$ git branch -a (list all branches both in local & remote end)</p>
+    <p>$ git branch "yourBranchName" (creates a new branch)</p>
+    <p>$ git checkout "yourBranchName" (to switch to the specified branch)</p>
+    <p>$ git checkout - (takes you to the previous branch)</p>
+    <p>$ git push --set-upstream origin "yourBranchName" (This pushes your new branch to the remote end)</p>
+    <p>$ git push -u origin "yourBranchName" (This will also push your new branch to the remote end. you can use this or the command above)</p>
+    <p>To delete a branch, make sure you switch back to the main branch and then run this command: $ git branch -d "yourBranchName"</p>
+    <p>If you are working for a company or collaborating with a team, you will never push your changes to the main branch. You will have to create your own branch and push your changes into it. Then you raise a pull request so that someone will inspect those changes before merging them to the main branch</p>
+
+    <p>When merging branches, it is best pratice to do it through a pull request</p>
+
+    <p>.gitignore file is a file where codes that you do not want to push to github are kept</p>
+    <p></p>
+    <script src="secret.js"></script>
 </body>
 </html>
